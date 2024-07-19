@@ -1,0 +1,52 @@
+.bg-container {
+  background-image: url('https://img.freepik.com/free-photo/movie-lettering-yellow-background-with-copy-space_23-2148425107.jpg?w=740&t=st=1721361677~exp=1721362277~hmac=127773ea86a20add60869aa118dbeb1eb037b4cfac76f60e506b0268ff4546dd');
+  padding: 15px;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.search-btn {
+  background: transparent;
+  border: 0;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 8px;
+  outline: 0;
+}
+.search-input-ele {
+  outline: 0;
+  border: 0;
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 2;
+}
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.clear-btn {
+  background-color: white;
+  color: blue;
+  border: 0;
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: 8px;
+}
+.heading {
+  font-family: Lobster;
+}
+span{
+  color: rgb(0, 128, 255);
+}
